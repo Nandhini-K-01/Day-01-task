@@ -1,0 +1,58 @@
+2. Write a blog about objects and its internal representation in javascript
+
+Answer:
+
+OBJECTS:
+
+Objects, in javaScript, is the most important data-type and forms the building blocks for modern JavaScript.An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. It is used because it is easy representation and accessibility.
+They are simply a collection of key:value pairs.
+
+
+WAYS TO CREATE OBJECTS:
+
+1. By object literal
+2. By creating instance of object directly (using new keyword)
+
+
+BY OBJECT LITERAL:
+
+syntax: var objectname = {key1:value1 , key2:value2, ..... ,keyn:valuen}
+example: var person = {name:"john", age:20, email:"xyz@gmail.com"}
+
+
+BY USING NEW KEYWORD:
+
+syntax: var objectname = new Object();
+example: var a = new Car()
+         a.santro = "blue"
+         a.BMW = "red"
+
+
+ACCESSING JS OBJECTS:
+
+Syntax: objectName.keyname (dot operator method)
+
+              or
+
+        objectName[“key”]
+
+
+Accessing age from object literal example using dot operator,
+            person.age       
+
+
+Accessing ‘blue’ from new keyword example using [],
+           a["santro"]
+
+
+=> We can use for...in loop to iterate over all the keys of an object.
+
+
+
+
+
+
+
+
+
+
